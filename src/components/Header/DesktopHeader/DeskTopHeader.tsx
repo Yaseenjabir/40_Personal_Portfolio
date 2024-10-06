@@ -17,7 +17,7 @@ const DeskTopHeader: React.FC = () => {
   const scrollIntoSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      const headerHeight = 60;
+      const headerHeight = 50;
       const sectionTop =
         section.getBoundingClientRect().top + window.scrollY - headerHeight;
 

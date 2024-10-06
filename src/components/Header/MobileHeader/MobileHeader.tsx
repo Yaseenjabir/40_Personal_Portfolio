@@ -90,8 +90,8 @@ const MobileHeader: React.FC = () => {
           {sections.map((sectionId) => (
             <li
               key={sectionId}
-              className={`font-bold cursor-pointer border-b-4 px-2 text-xl pb-2 border-transparent hover:border-blue-600 transition-all ease-in-out duration-200 ${
-                activeSection === sectionId ? "border-blue-600" : ""
+              className={`font-bold cursor-pointer border-b-4 px-2 text-xl pb-2 border-transparent hover:border-blue-500 transition-all ease-in-out duration-200 ${
+                activeSection === sectionId ? "border-blue-500" : ""
               }`}
               onClick={() => scrollIntoSection(sectionId)}
             >
