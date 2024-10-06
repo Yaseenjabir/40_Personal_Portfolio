@@ -1,20 +1,20 @@
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import { loadSlim } from "@tsparticles/slim";
 
 const ParticlesComponent = (props: any) => {
-  const [init, setInit] = useState<any>(false);
+  // const [init, setInit] = useState<any>(false);
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
     }).then(() => {
-      setInit(true);
+      // setInit(true);
     });
   }, []);
 
-  const particlesLoaded = (container: any) => {
-    console.log(container);
-  };
+  // const particlesLoaded = (container: any) => {
+  //   console.log(container);
+  // };
 
   const options: any = useMemo(
     () => ({
@@ -87,7 +87,7 @@ const ParticlesComponent = (props: any) => {
     []
   );
 
-  return <Particles id={props.id} init={particlesLoaded} options={options} />;
+  return <Particles id={props.id} options={options} />;
 };
 
 export default ParticlesComponent;
