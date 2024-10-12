@@ -5,8 +5,8 @@ import Instagram from "./assets/instagram.png";
 import FoodDelivery from "./assets/Food_Delivery.png";
 import factify from "./assets/factify.png";
 import recipe from "./assets/Recipe Ingredients.png";
-import brandz from "./assets/brandz.png";
 import portfolio from "./assets/portfolio.png";
+import blog from "./assets/Blog.png";
 import { motion } from "framer-motion";
 
 const defaultOptions = {
@@ -61,9 +61,9 @@ const Projects: React.FC = () => {
     },
     {
       id: 5,
-      img: brandz,
-      title: "Brands Management",
-      desc: "Brands Management Website with ReactJS and Firebase for backend",
+      img: blog,
+      title: "Food Blog",
+      desc: "Fully functional food blog using MERN Stack",
       redirect: "https://github.com/Yaseenjabir/28_React_Site",
     },
     {
@@ -100,11 +100,11 @@ const Projects: React.FC = () => {
             return (
               <>
                 <motion.div
-                  initial={{ opacity: 0, rotateY: -180 }} // Start hidden and rotated
-                  whileInView={{ opacity: 1, rotateY: 0 }} // Fade in and rotate to front
-                  transition={{ duration: 1 }} // Duration of the animation
+                  initial={{ opacity: 0, rotateY: -180 }}
+                  whileInView={{ opacity: 1, rotateY: 0 }}
+                  transition={{ duration: 1 }}
                   viewport={{ once: false }}
-                  className=""
+                  className="w-[330px]"
                 >
                   <Tilt key={item.id} options={defaultOptions}>
                     <div
