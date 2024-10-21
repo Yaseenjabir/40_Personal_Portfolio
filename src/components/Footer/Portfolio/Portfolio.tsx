@@ -9,9 +9,6 @@ const Portfolio: React.FC = () => {
           Thank you for visiting my personal portfolio website. Connect with me
           over socials.{" "}
         </p>
-        <p className="text-sm font-extralight">
-          Keep Rising 🚀. Connect with me over live chat!
-        </p>
       </div>
     </>
   );
