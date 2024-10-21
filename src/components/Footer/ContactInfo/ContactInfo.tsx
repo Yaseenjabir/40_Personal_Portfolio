@@ -11,7 +11,7 @@ const Contactinfo: React.FC = () => {
         <ul className="mt-5 flex flex-col gap-3">
           <li className="flex items-center w-min gap-5 justify-center">
             <FaPhoneAlt className="text-orange-500" />
-            <h1 className="text-sm">03079302311</h1>
+            <h1 className="text-sm">03XXXXXXXXX</h1>
           </li>
           <li className="flex items-center w-min gap-5 justify-center">
             <MdEmail className="text-orange-500" />

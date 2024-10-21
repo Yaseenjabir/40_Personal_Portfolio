@@ -81,7 +81,7 @@ const About: React.FC = () => {
                 className="text-sm text-[#000000e8] mt-5"
               >
                 I am a Full-Stack developer based in Mardan KP, Pakistan. I have
-                done my Intermediate in Computer Sciens from Punjab Group of
+                done my Intermediate in Computer Science from Punjab Group of
                 Colleges. I am very passionate about improving my coding skills
                 & developing applications & websites. I build WebApps and
                 Websites using MERN Stack. Working for myself to improve my
