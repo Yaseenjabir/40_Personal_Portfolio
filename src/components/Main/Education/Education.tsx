@@ -30,7 +30,7 @@ const Education: React.FC = () => {
         </motion.p>
         <section className="px-5 flex flex-col gap-10 mt-7 w-full overflow-hidden">
           <motion.div
-            initial={{ opacity: 1, scale: 0.5 }}
+            initial={{ opacity: 1, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.65 }}
             viewport={{ once: false }}
@@ -52,7 +52,7 @@ const Education: React.FC = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 1, scale: 0.5 }}
+            initial={{ opacity: 1, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
             viewport={{ once: false }}

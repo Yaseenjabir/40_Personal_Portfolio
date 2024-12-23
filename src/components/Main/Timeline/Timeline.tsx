@@ -88,7 +88,7 @@ const Timeline: React.FC = () => {
           }}
           contentArrowStyle={{ borderRight: "7px solid rgb(246, 140, 9)" }}
           iconStyle={{ background: "rgb(247, 124, 0)", color: "#000000" }}
-          date="2024"
+          date="2023"
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
@@ -107,7 +107,7 @@ const Timeline: React.FC = () => {
           }}
           contentArrowStyle={{ borderRight: "7px solid rgb(246, 140, 9)" }}
           iconStyle={{ background: "rgb(247, 124, 0)", color: "#000000" }}
-          date="2024"
+          date="2023"
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
@@ -127,7 +127,7 @@ const Timeline: React.FC = () => {
           }}
           contentArrowStyle={{ borderRight: "7px solid rgb(246, 140, 9)" }}
           iconStyle={{ background: "rgb(247, 124, 0)", color: "#000000" }}
-          date="2024"
+          date="2023"
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title font-bold">

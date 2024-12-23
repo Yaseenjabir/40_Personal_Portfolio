@@ -55,8 +55,8 @@ const DeskTopHeader: React.FC = () => {
 
   return (
     <>
-      <header className="hidden md:flex w-full sticky top-0 z-50 h-[60px] border-b items-center justify-between px-10 shadow-md bg-white">
-        <div className="flex w-full justify-between max-w-[900px] mx-auto">
+      <header className="hidden md:flex w-full sticky top-0 z-50 h-[60px] border-b items-center justify-between px-5 shadow-md bg-white">
+        <div className="flex w-full justify-between max-w-[1030px] mx-auto">
           <div
             onClick={() => scrollIntoSection("home")}
             className="flex hover:text-orange-400 text-[#141047] transition-all ease-in-out duration-200 cursor-pointer items-center text-xl justify-center w-min"

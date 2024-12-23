@@ -81,7 +81,7 @@ const About: React.FC = () => {
                 className="text-sm text-[#000000e8] mt-5"
               >
                 I am a Full-Stack developer based in Mardan KP, Pakistan. I have
-                done my Intermediate in Computer Science from Punjab Group of
+                done my Intermediate in Computer Sciens from Punjab Group of
                 Colleges. I am very passionate about improving my coding skills
                 & developing applications & websites. I build WebApps and
                 Websites using MERN Stack. Working for myself to improve my
@@ -109,16 +109,18 @@ const About: React.FC = () => {
                 <span>:</span>
                 <span>Mardan, Pakistan</span>
               </motion.h1>
-              <motion.button
+              <motion.a
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: false }}
-                className="rounded-md flex items-center justify-center gap-1 py-2 px-5 text-white bg-[#2506ad] shadow-lg shadow-[#2506ad98] mt-5 font-semibold hover:bg-[#1f06ad] transition-all ease-in-out duration-300 hover:gap-2"
+                href="https://docs.google.com/document/d/1QKduLlf4V2rb2jNJI4t3PG_vmw6U_TGm447a4fmFiPw/edit?tab=t.0#heading=h.gjdgxs"
+                target="_blank"
+                className="rounded-md w-min flex items-center justify-center gap-1 py-2 px-5 text-white bg-[#2506ad] shadow-lg shadow-[#2506ad98] mt-5 font-semibold hover:bg-[#1f06ad] transition-all ease-in-out duration-300 hover:gap-2"
               >
                 Resume
                 <MdArrowForwardIos />
-              </motion.button>
+              </motion.a>
             </div>
           </div>
         </section>

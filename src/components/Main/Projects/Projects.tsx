@@ -3,10 +3,10 @@ import { FaArrowRight, FaCode, FaLaptopCode } from "react-icons/fa";
 import { Tilt } from "react-tilt";
 import Instagram from "./assets/instagram.png";
 import FoodDelivery from "./assets/Food_Delivery.png";
-import factify from "./assets/factify.png";
-import recipe from "./assets/Recipe Ingredients.png";
 import portfolio from "./assets/portfolio.png";
 import blog from "./assets/Blog.png";
+import ARDoors from "./assets/A&R-Doors.png";
+import craftWork from "./assets/craftwork.png";
 import { motion } from "framer-motion";
 
 const defaultOptions = {
@@ -47,17 +47,17 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      img: factify,
-      title: "Factify",
-      desc: "Generates facts about digits, years and dates",
-      redirect: "https://github.com/Yaseenjabir/23_Factify",
+      img: ARDoors,
+      title: "A&R Doors",
+      desc: "Garage door system with admin dashboard",
+      redirect: "https://github.com/Yaseenjabir/42_Doorplay",
     },
     {
       id: 4,
-      img: recipe,
-      title: "Recipe Ingredients Finder",
-      desc: "Search and find your favorite recipe",
-      redirect: "https://github.com/Yaseenjabir/38_Recipe-Ingredients-finder",
+      img: craftWork,
+      title: "Craft Work",
+      desc: "A personal craft work project",
+      redirect: "https://github.com/Yaseenjabir/34_Artwork",
     },
     {
       id: 5,

@@ -1,8 +1,8 @@
 import React from "react";
 import ParticlesComponent from "../../Particles";
 import { ReactTyped } from "react-typed";
-import { FaArrowAltCircleDown, FaInstagram, FaTelegram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaArrowAltCircleDown, FaFacebook, FaInstagram } from "react-icons/fa";
+
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import HeroImage from "../HeroSection/hero.png";
@@ -79,21 +79,35 @@ const HeroSection: React.FC = () => {
             <FaArrowAltCircleDown />
           </button>
           <div className="mt-7 flex gap-3">
-            <button className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:bg-[#4971c7] hover:text-white transition-all ease-in-out duration-300">
-              <FaLinkedin className="text-xl" />
-            </button>
-            <button className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:text-white transition-all ease-in-out duration-300">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/syedyaseen.jabir?mibextid=ZbWKwL"
+              className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:bg-[#4971c7] hover:text-white transition-all ease-in-out duration-300"
+            >
+              <FaFacebook className="text-xl" />
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/Yaseenjabir"
+              className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:text-white transition-all ease-in-out duration-300"
+            >
               <FaGithub className="text-xl" />
-            </button>
-            <button className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:bg-[#4971c7] hover:text-white transition-all ease-in-out duration-300">
+            </a>
+            <a
+              target="_blank"
+              href="https://x.com/yaseenjabir791"
+              className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:bg-[#4971c7] hover:text-white transition-all ease-in-out duration-300"
+            >
               <FaTwitter className="text-xl" />
-            </button>
-            <button className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:bg-[#3868ce] hover:text-white transition-all ease-in-out duration-300">
-              <FaTelegram className="text-xl" />
-            </button>
-            <button className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:bg-[#C13584] hover:text-white transition-all ease-in-out duration-300">
+            </a>
+
+            <a
+              target="_blank"
+              href="https://www.instagram.com/ezgod791?igsh=ODU3bGo0MGRjdHBt"
+              className="bg-[#000000ec] p-3 rounded-full text-blue-400 hover:bg-[#C13584] hover:text-white transition-all ease-in-out duration-300"
+            >
               <FaInstagram className="text-xl" />
-            </button>
+            </a>
           </div>
         </motion.div>
 

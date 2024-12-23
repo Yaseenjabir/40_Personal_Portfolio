@@ -64,7 +64,7 @@ const MobileHeader: React.FC = () => {
 
   return (
     <>
-      <header className="w-full sticky top-0 h-[60px] border-b flex items-center justify-between px-10 md:hidden shadow-md bg-white z-50">
+      <header className="w-full sticky top-0 h-[60px] border-b flex items-center justify-between px-5 md:hidden shadow-md bg-white z-50">
         <div
           onClick={() => scrollIntoSection("home")}
           className="flex hover:text-orange-400 text-[#141047] transition-all ease-in-out duration-200 cursor-pointer items-center text-xl justify-center w-min"
